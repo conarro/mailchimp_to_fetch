@@ -1,0 +1,26 @@
+{
+  "name": "Mailchimp to Fetch",
+  "description": "A web service to send Mailchimp subscribe events to Amplemarket Fetch for enhancement",
+  "keywords": [
+    "mailchimp",
+    "amplemarket",
+    "fetch",
+    "webhook"
+  ],
+  "website": "https://github.com/conarro/mailchimp_to_fetch",
+  "repository": "https://github.com/conarro/mailchimp_to_fetch",
+  "env": {
+    "APP_USERNAME": {
+      "description": "Username used for basic auth",
+      "generator": "secret"
+    },
+    "APP_PASSWORD": {
+      "description": "Password used for basic auth",
+      "generator": "secret"
+    },
+    "FETCH_API_KEY": {
+      "description": "API key for your Amplemarket Fetch account",
+      "value": "fetch_api_key"
+    }
+  }
+}

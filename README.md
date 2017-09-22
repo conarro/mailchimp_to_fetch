@@ -11,7 +11,7 @@ Send your Mailchimp subscribes to [Amplemarket Fetch](http://fetch.amplemarket.c
 
 2. Set the `FETCH_API_KEY` environment variable in Heroku. This is where you can find that value in Fetch:
     
-    ![](https://tppr.s3.amazonaws.com/uploads/ad5ee6513f9385047fb9aa158d75bd63.png)
+    ![]()
 
 3. In Mailchimp, go to the list you want to send to Fetch. Go to Settings > Webhooks.
 4. Add the URL of your Heroku app as a webhook, and only check 'Subscribe' events
